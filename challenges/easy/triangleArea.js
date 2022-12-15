@@ -7,6 +7,9 @@ const rectangleArea = require('./rectangleArea')
  */
 
 function triangleArea(a, b) {
+  
+  var rectangleArea  = a * b;
+
   return rectangleArea / 2
 }
 
